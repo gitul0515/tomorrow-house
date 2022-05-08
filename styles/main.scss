@@ -1,7 +1,10 @@
 @import './constants/colors';
+@import './constants/typography';
 
 @import './base/fonts';
 @import './base/normalize';
 @import './base/reset';
 
-$maru: 1;
+@import './mixins/text-style';
+
+// TODO: grids 작성
